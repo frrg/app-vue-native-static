@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Blank Template",
-    "slug": "latihan3",
+    "name": "App Gangguan Penglihatan",
+    "slug": "app-gangguan-penglihatan",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
