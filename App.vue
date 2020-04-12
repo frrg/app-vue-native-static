@@ -10,7 +10,6 @@ import {
 
 import MainScreen from './Main'
 import AboutScreen from './About'
-import KonjungtivitisScreen from './Screens/Konjungtivitis/Konjungtivitis'
 import KatarakScreen from './Screens/Katarak/Katarak'
 
 
@@ -47,12 +46,22 @@ import ButaWarnaPemeriksaan from './Screens/ButaWarna/ButaWarnaPemeriksaan'
 import ButaWarnaPengobatan from './Screens/ButaWarna/ButaWarnaPengobatan'
 import ButaWarnaDiagnosa from './Screens/ButaWarna/ButaWarnaDiagnosa'
 
+
+
+import KonjungtivitisScreen from './Screens/Konjungtivitis/Konjungtivitis'
+import KonjungtivitisDefinisi from './Screens/Konjungtivitis/KonjungtivitisDefinisi'
+import KonjungtivitisEtiologi from './Screens/Konjungtivitis/KonjungtivitisEtiologi'
+import KonjungtivitisKlasifikasi from './Screens/Konjungtivitis/KonjungtivitisKlasifikasi'
+import KonjungtivitisTanda from './Screens/Konjungtivitis/KonjungtivitisTanda'
+import KonjungtivitisPemeriksaan from './Screens/Konjungtivitis/KonjungtivitisPemeriksaan'
+import KonjungtivitisPengobatan from './Screens/Konjungtivitis/KonjungtivitisPengobatan'
+import KonjungtivitisDiagnosa from './Screens/Konjungtivitis/KonjungtivitisDiagnosa'
+import KonjungtivitisDaftar from './Screens/Konjungtivitis/KonjungtivitisDaftar'
+
 const StackNavigator = createStackNavigator(
   {
     Main: MainScreen,
     About: AboutScreen,
-    ButaWarna: ButaWarnaScreen,
-    Konjungtivitis: KonjungtivitisScreen,
     Katarak: KatarakScreen,
 
     Glaukoma: GlaukomaScreen,
@@ -86,6 +95,17 @@ const StackNavigator = createStackNavigator(
     ButaWarnaPemeriksaan : ButaWarnaPemeriksaan,
     ButaWarnaPengobatan : ButaWarnaPengobatan,
     ButaWarnaDiagnosa : ButaWarnaDiagnosa,
+
+    Konjungtivitis: KonjungtivitisScreen,
+    KonjungtivitisDefinisi :  KonjungtivitisDefinisi,
+    KonjungtivitisEtiologi :  KonjungtivitisEtiologi,
+    KonjungtivitisKlasifikasi :  KonjungtivitisKlasifikasi,
+    KonjungtivitisTanda :  KonjungtivitisTanda,
+    KonjungtivitisPemeriksaan :  KonjungtivitisPemeriksaan,
+    KonjungtivitisPengobatan :  KonjungtivitisPengobatan,
+    KonjungtivitisDiagnosa :  KonjungtivitisDiagnosa,
+    KonjungtivitisDaftar :  KonjungtivitisDaftar,
+
   },
   {
     initialRouteName: 'Main',
