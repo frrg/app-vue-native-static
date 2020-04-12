@@ -7,21 +7,27 @@
       <image
         class="img"
         :style="{ width:150,height:150 }"
-        :source="require('./../../assets/glaukoma.png')"
+        :source="require('./../../assets/katarak.png')"
       />
     </view>
     <text class="judul">A. DEFINISI</text>
     <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;Glaukoma adalah suatu penyakit yang memberikan gambaran klinik berupa peninggian tekanan bola mata,
-      penggaungan papil saraf optik dengan defek lapang pandangan mata. (Sidarta Ilyas, 2000).
+      &nbsp;&nbsp;&nbsp;&nbsp;Katarak merupakan penyakit mata yang ditandai dengan mengeruhnya lensa mata,
+      sehingga membuat penglihatan kabur. Kondisi ini umumnya terjadi pada lansia, dan bisa terjadi pada
+      salah satu atau kedua mata sekaligus. Meski demikian, katarak bukan jenis penyakit menular.
     </text>
     <text class="paragraph">
       &nbsp;&nbsp;&nbsp;&nbsp;
-      Glaukoma adalah sekelompok kelainan mata yang ditandai dengan peningkatan tekanan intraokuler.( Long Barbara, 1996)
+      Lensa mata adalah bagian transparan di belakang pupil (titik hitam di tengah mata),
+      yang berfungsi untuk memfokuskan cahaya yang masuk melalui mata ke retina agar objek
+      dapat terlihat jelas. Seiring bertambahnya usia, protein pada lensa akan menggumpal dan
+      perlahan-lahan membuat lensa keruh dan berkabut. Hal ini menyebabkan penglihatan
+      menjadi kabur dan tidak jelas.
     </text>
     <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;Jadi, Glaukoma merupakan penyakit kerusakan pada saraf mata yang menyebabkan menyempitnya lapangan pandang dan hilagnya fungsi penglihatan.
-      Fakto resiko utama yang menyebabkan glaukoma adalah peningkatan pada bola mata. (Pusdatin RI, 2019)
+      &nbsp;&nbsp;&nbsp;&nbsp;Katarak adalah penyebab utama kebutaan di Indonesia.
+      Dari hasil survey kebutaan di 15 provinsi tahun 2014-2016, diketahui 70-80% penyebab utama kebutaan
+      dan gangguan penglihatan di Indonesia adalah katarak.
     </text>
     </scroll-view>
   </view>

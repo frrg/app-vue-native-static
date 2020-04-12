@@ -7,7 +7,7 @@
       <image
         class="img"
         :style="{ width:150,height:150 }"
-        :source="require('./../../assets/glaukoma.png')"
+        :source="require('./../../assets/katarak.png')"
       />
     </view>
 
@@ -97,6 +97,9 @@ export default {
     },
     handleGejala() {
       this.navigation.navigate("KatarakGejala");
+    },
+    handleStadium() {
+      this.navigation.navigate("KatarakStadium");
     },
     handlePathways() {
       this.navigation.navigate("KatarakPathways");

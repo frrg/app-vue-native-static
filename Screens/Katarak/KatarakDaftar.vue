@@ -7,19 +7,24 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/katarak.png')"
         />
       </view>
-      <text class="judul">I. SUMBER</text>
+      <text class="judul">I. DAFTAR PUSTAKA</text>
 
-      <text class="paragraph list">1. Sidarta Ilyas, Ilmu Penyakit Mata, FKUI, 2000.</text>
-      <text class="paragraph list">2. Long C Barbara. Medical surgical Nursing. 1996</text>
+
+      <text class="paragraph list">https://www.alodokter.com/katarak-pada-manula
+</text>
+      <text class="paragraph list">https://www.alomedika.com/penyakit/oftalmologi/katarak/etiologi
+</text>
       <text
         class="paragraph list"
-      >3. Doungoes, marilyn E, Rencana Asuhan Keperawatan : Pedoman Untuk Perencanaan Dan pendokumentasian perawatan pasien. Ed 3, EGC, Jakarta, 1999</text>
+      >Smeltzer,Suzanne. 2001. Buku Ajar Keperawatan Medikal Bedah Edisi 8 Volume 3. Jakarta; EGC
+</text>
       <text
         class="paragraph list"
-      >4. Pusat Data dan Informasi Kementrian Kesehatan RI Mengenai Glaukoma, 2019</text>
+      >Mansjoer, Arief. 2001. Kapita Selekta Kedokteran Edisi 3 Jilid 1. Jakarta; Media Aesculapius Fakultas Kedokteran UI
+</text>
     </scroll-view>
   </view>
 </template>

@@ -7,13 +7,22 @@
       <image
         class="img"
         :style="{ width:150,height:150 }"
-        :source="require('./../../assets/glaukoma.png')"
+        :source="require('./../../assets/katarak.png')"
       />
     </view>
-    <text class="judul">H. PENGOBATAN</text>
+    <text class="judul">F. PENGOBATAN</text>
     <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;Saat ini belum ada terapi yang dapat mengobati glaukoma secara total. Terapi yang dilakukan hanya untuk mempertahankan fungsi penglihatan yang tersisa saat pemeriksaan dan meningkatkan kualitas hidup. Cara yang dilakukan adalah dengan menurunkan tekanan pada bola mata yang merupakan faktor risiko utama. Terapi yang dilakukan dengan obat-obatan, tindakan laser, dan tindakan bedah. Obat-obatan yang diberikan berfungsi untuk menurunkan produksi cairan bola mata atau untuk memperlancar aliran keluar cairan sehingga dapat menurunkan tekanan pada bola mata. (Pusdatin RI, 2019)
-      </text>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      Operasi katarak merupakan satu-satunya penanganan katarak pada lansia. Namun keputusan untuk menjalani operasi mempertimbangkan terganggunya aktivitas sehari-hari atau tidak, seperti menyetir kendaraan atau membaca.
+    </text>
+    <text class="paragraph">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+Dalam operasi katarak, lensa yang keruh akan diangkat dan diganti dengan lensa tiruan. Lensa tiruan ini terbuat dari plastik atau silikon, dan dapat digunakan untuk seumur hidup. Sedangkan pada kondisi di mana lensa tiruan tidak bisa dipasang, pasien harus mengenakan kacamata atau lensa kontak pasca operasi katarak untuk memperbaiki penglihatan.
+</text>
+    <text class="paragraph">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+Operasi katarak dilakukan dengan bius lokal agar mata menjadi mati rasa, dan biasanya tanpa rawat inap. Rasa tidak nyaman di mata umumnya dirasakan hingga beberapa hari pasca operasi. Pada pasien dengan katarak di kedua mata, operasi dilakukan secara terpisah hingga pasien sembuh dari operasi pertama, yaitu sekitar 6-12 minggu.
+</text>
     </scroll-view>
   </view>
 </template>

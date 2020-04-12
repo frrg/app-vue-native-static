@@ -7,15 +7,15 @@
       <image
         class="img"
         :style="{ width:150,height:150 }"
-        :source="require('./../../assets/glaukoma.png')"
+        :source="require('./../../assets/katarak.png')"
       />
     </view>
-    <text class="judul">D. PATHWAYS</text>
+    <text class="judul">G. PATHWAY</text>
     
     <view class="thumb">
     <image
-        :style="{ width:420,height:500}"
-        :source="require('./../../assets/glaukoma/pathways-glaukoma.png')"
+        :style="{ width:420,height:590}"
+        :source="require('./../../assets/katarak/gambar-6.png')"
       />
   </view>
     </scroll-view>

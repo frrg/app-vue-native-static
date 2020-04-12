@@ -7,27 +7,29 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/katarak.png')"
         />
       </view>
-      <text class="judul">F. PEMERIKSAAN DIAGNOSTIK</text>
-      <text class="paragraph">
-        Pemeriksaan yang dilakukan dalam menegakkan diagnosa glaucoma diantaranya :</text>
+      <text class="judul">E. PEMERIKSAAN DIAGNOSTIK</text>
 
-      <text class="paragraph list">
-        1. Pemeriksaan tekanan bola mata dengan tes tonometry. Proses pemeriksaan ini adalah dengan menyentuh sebagian kecil bola mata atau dengan semburan udara.</text>
-      <text class="paragraph list">
-        2. Evaluasi struktur mata. Pemeriksaan ini dilakukan dengan menggunakan obat tetes midriasil untuk melebarkan pupil sehingga detail saraf mata dapat terlihat dengan jelas</text>
-      <text class="paragraph list">
-        3. Pemeriksaan luas lapangan pandang dengan tes perimetri. Pemeriksaan ini dilakukan untuk melihat luas penglihatan berupa pemetaar daerah yang bisa dilihat oleh pasien.</text>
-      <text class="paragraph list">
-        4. Pemeriksaan sudut bilik mata depan dengan tes gonioskopi. Pemeriksaan dilakukan dengan mengqunakan lensa kontak gonioskopi vang ditempelkan pada bola mata</text>
-      <text class="paragraph list">
-        5. Pemeriksaan ketebalan kornea mata dengan tes pakimetri. Pakimetri bertujuan untuk mengukur ketebalan kornea yaitu jaringan bening yang berada paling depan dari bola mata.</text>
-      <text class="paragraph">
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        (Pusdatin RI, 2019)
-      </text>
+<text class="paragraph">Untuk memperoleh diagnosis katarak, dokter mata akan menanyakan riwayat penyakit
+  dan gejala apa saja yang dialami pasien. Kemudian, dokter akan melakukan pemeriksaan pada mata pasien,
+  diikuti dengan pemeriksaan penunjang seperti:
+</text>
+<text class="paragraph list">•	<text class="bold">Tes ketajaman penglihatan.</text> Dalam tes ini,
+pasien akan diminta membaca huruf dalam jarak 6 meter menggunakan satu mata, di mana di saat yang sama mata
+yang lain akan ditutup. Huruf yang ditampilkan akan semakin mengecil, hingga pasien tidak bisa membacanya
+dengan jelas.
+</text>
+<text class="paragraph list">•	<text class="bold">Pemeriksaan <text class="italic">slit-lamp</text>
+(lampu celah).</text> Pemeriksaan slit-lamp menggunakan mikroskop khusus yang dilengkapi cahaya untuk
+menerangi lensa, iris, dan kornea mata. Cahaya ini akan membantu dokter melihat kelainan pada mata dengan
+lebih jelas.
+</text>
+<text class="paragraph list">•	<text class="bold">Pemeriksaan retina mata.</text> Dilakukan dengan memberikan
+obat tetes mata untuk membuat pupil membesar. Dengan bantuan alat khusus bernama oftalmoskop, dokter akan
+lebih mudah melihat kondisi retina.
+</text>
     </scroll-view>
   </view>
 </template>
@@ -50,11 +52,18 @@
   padding-top: 5;
 }
 .list {
-  padding-left: 30;
+  padding-left: 40;
 }
 .container-header {
   align-items: center;
   margin: 10;
+}
+.bold {
+  font-weight:bold;
+}
+
+.italic {
+  font-style: italic;
 }
 .img {
   border-radius: 100;

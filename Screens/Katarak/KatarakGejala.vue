@@ -7,36 +7,25 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/katarak.png')"
         />
       </view>
-      <text class="judul">E. MANIFESTASI KLINIK</text>
-
-      <text class="paragraph">
-        &nbsp;&nbsp;&nbsp;Didalam bola mata terdapat cairan (aquos humor) yang berfungsi untuk memberikan nutrisi pada organ dalam bola mata.
-        Cairan ini diproduksi dan dikeluarkan kembali dalam siklus yang seimbang sehingga tekanan pada bola mata tetap terjaga normal.
-        Pada mata penderita glaukoma, siklus cairan ini tidak seimbang dimana cairan diproduksi tetapi terdapat masalah dalam saluran pengeluaran.
-        Hal ini menyebabkan tekanan pada bola mata meningkat sehingga terjadi penekanan pada papil saraf optik. (Pusdatin RI, 2019)
-      </text>
-
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-1.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-2.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-3.png')"
-        />
-      </view>
+      <text class="judul">C. GEJALA</text>
+<text class="paragraph">&nbsp;&nbsp;&nbsp;Katarak umumnya berkembang secara perlahan. Awalnya, penderita tidak akan
+  menyadari ada gangguan penglihatan, karena hanya sebagian kecil lensa mata yang mengalami katarak.
+  Namun seiring waktu, katarak akan memburuk dan memunculkan sejumlah gejala berikut:
+</text>
+<text class="paragraph list">•	Pandangan samar dan berkabut.</text>
+<text class="paragraph list">•	Mata semakin sensitif saat melihat cahaya yang menyilaukan.</text>
+<text class="paragraph list">•	Melihat lingkaran cahaya di sekeliling sumber cahaya.</text>
+<text class="paragraph list">•	Sulit melihat dengan jelas saat malam hari.</text>
+<text class="paragraph list">•	Warna terlihat pudar atau tidak cerah.</text>
+<text class="paragraph list">•	Objek terlihat ganda.</text>
+<text class="paragraph list">•	Ukuran lensa kacamata yang sering berubah.</text>
+<text class="paragraph ">Meski umumnya katarak tidak menyebabkan rasa sakit pada mata, namun penderita
+  bisa merasakan nyeri pada mata, terutama jika katarak yang dialami sudah parah, atau penderita memiliki
+  gangguan lain pada mata.
+</text>
     </scroll-view>
   </view>
 </template>
