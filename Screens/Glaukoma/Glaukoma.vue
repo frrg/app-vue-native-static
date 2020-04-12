@@ -1,5 +1,8 @@
 <template>
   <view class="container">
+    <scroll-view :content-container-style="{contentContainer: {
+        paddingVertical: 20
+    }}">
     <view class="container-header">
       <image
         class="img"
@@ -32,8 +35,8 @@
     <view class="content">
       <button
         :on-press="() => handlePathways()"
-        title="Path Ways"
-        accessibility-label="Path Ways"
+        title="PathWays"
+        accessibility-label="PathWays"
       />
     </view>
     <view class="content">
@@ -71,6 +74,7 @@
         accessibility-label="SUMBER"
       />
     </view>
+    </scroll-view>
   </view>
 </template>
 

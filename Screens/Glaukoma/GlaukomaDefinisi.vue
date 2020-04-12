@@ -1,5 +1,8 @@
 <template>
   <view>
+    <scroll-view :content-container-style="{contentContainer: {
+        paddingVertical: 20
+    }}">
     <view class="container-header">
       <image
         class="img"
@@ -17,6 +20,7 @@
       &nbsp;&nbsp;&nbsp;&nbsp;Jadi, Glaukoma merupakan penyakit kerusakan pada saraf mata yang menyebabkan menyempitnya lapangan pandang dan hilagnya fungsi penglihatan.
       Fakto resiko utama yang menyebabkan glaukoma adalah peningkatan pada bola mata. (Pusdatin RI, 2019)
     </text>
+    </scroll-view>
   </view>
 </template>
 

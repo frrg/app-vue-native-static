@@ -1,5 +1,8 @@
 <template>
   <view>
+    <scroll-view :content-container-style="{contentContainer: {
+        paddingVertical: 20
+    }}">
     <view class="container-header">
       <image
         class="img"
@@ -26,6 +29,7 @@
       &nbsp;&nbsp;&nbsp;&nbsp;
       (Pusdatin RI, 2019)
     </text>
+    </scroll-view>
   </view>
 </template>
 
