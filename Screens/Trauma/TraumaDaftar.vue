@@ -7,19 +7,17 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/trauma.png')"
         />
       </view>
-      <text class="judul">I. SUMBER</text>
+      <text class="judul">DAFTAR PUSTAKA</text>
 
-      <text class="paragraph list">1. Sidarta Ilyas, Ilmu Penyakit Mata, FKUI, 2000.</text>
-      <text class="paragraph list">2. Long C Barbara. Medical surgical Nursing. 1996</text>
       <text
         class="paragraph list"
-      >3. Doungoes, marilyn E, Rencana Asuhan Keperawatan : Pedoman Untuk Perencanaan Dan pendokumentasian perawatan pasien. Ed 3, EGC, Jakarta, 1999</text>
+      >- Bachrudin,M.dkk.2016. Keperawatan Medikal Bedah I. Jakarta: Pusdik SDM Kesehatan</text>
       <text
         class="paragraph list"
-      >4. Pusat Data dan Informasi Kementrian Kesehatan RI Mengenai Glaukoma, 2019</text>
+      >- Smeltzer. Suzanne. C, Brenda G. Bare. 2001. Buku Ajar Keperawatan Medikal bedah Brunner & Suddarth Edisi 8 Volume 3 hal. 2015. EGC. Jakarta</text>
     </scroll-view>
   </view>
 </template>

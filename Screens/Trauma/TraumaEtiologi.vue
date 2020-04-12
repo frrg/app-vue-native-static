@@ -10,7 +10,7 @@
           :source="require('./../../assets/trauma.png')"
         />
       </view>
-      <text class="judul">B. ETIOLOGI</text>
+      <text class="judul">ETIOLOGI</text>
 
       <text
         class="paragraph list"

@@ -7,10 +7,10 @@
       <image
         class="img"
         :style="{ width:150,height:150 }"
-        :source="require('./../../assets/glaukoma.png')"
+        :source="require('./../../assets/trauma.png')"
       />
     </view>
-    <text class="judul">A. DEFINISI</text>
+    <text class="judul">DEFINISI</text>
     <text class="paragraph">
       &nbsp;&nbsp;&nbsp;&nbsp;Trauma mata adalah tindakan sengaja maupun tidak yang menimbulkan perlukaan mata dan merupakan kasus gawat darurat mata.Perlukaan yang ditimbulkan dapat ringan sampai berat atau menimbulkan kebutaan bahkan kehilangan mata(Sidarta, 2005).
     </text>

@@ -10,7 +10,7 @@
           :source="require('./../../assets/trauma.png')"
         />
       </view>
-      <text class="judul">D. TANDA DAN GEJALA</text>
+      <text class="judul">TANDA DAN GEJALA</text>
 
       <text class="paragraph">1. Nyeri</text>
       <text class="paragraph">2. Enoftalmia (perpindahan mata yang abnormal ke belakang atau ke bawah)</text>

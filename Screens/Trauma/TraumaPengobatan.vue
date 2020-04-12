@@ -7,10 +7,10 @@
       <image
         class="img"
         :style="{ width:150,height:150 }"
-        :source="require('./../../assets/glaukoma.png')"
+        :source="require('./../../assets/trauma.png')"
       />
     </view>
-    <text class="judul">H. PENGOBATAN</text>
+    <text class="judul">PENGOBATAN</text>
     <text class="paragraph">1.	Penatalaksanaan sebelum tiba di RS, antara lain :</text>
 <text class="paragraph list">a.	Mata tidak boleh dibebat dengan tekanandan diberikan perlindungan tanpa kontak.</text>
 <text class="paragraph list">b.	Tidak boleh dilakukan manipulasi yangberlebihan dan penekanan bola mata.</text>

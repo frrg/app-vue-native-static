@@ -10,7 +10,7 @@
         :source="require('./../../assets/trauma.png')"
       />
     </view>
-    <text class="judul">E. PATHWAYS</text>
+    <text class="judul">PATHWAYS</text>
     
     <view class="thumb">
     <image

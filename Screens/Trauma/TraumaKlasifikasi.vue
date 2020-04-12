@@ -10,7 +10,7 @@
           :source="require('./../../assets/trauma.png')"
         />
       </view>
-      <text class="judul">C. KLASIFIKASI</text>
+      <text class="judul">KLASIFIKASI</text>
 
       <text class="paragraph">1. Trauma Mekanik</text>
 
