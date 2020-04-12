@@ -7,27 +7,16 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/konjungtivitis.png')"
         />
       </view>
-      <text class="judul">F. PEMERIKSAAN DIAGNOSTIK</text>
+      <text class="judul">PEMERIKSAAN</text>
       <text class="paragraph">
-        Pemeriksaan yang dilakukan dalam menegakkan diagnosa glaucoma diantaranya :</text>
-
-      <text class="paragraph list">
-        1. Pemeriksaan tekanan bola mata dengan tes tonometry. Proses pemeriksaan ini adalah dengan menyentuh sebagian kecil bola mata atau dengan semburan udara.</text>
-      <text class="paragraph list">
-        2. Evaluasi struktur mata. Pemeriksaan ini dilakukan dengan menggunakan obat tetes midriasil untuk melebarkan pupil sehingga detail saraf mata dapat terlihat dengan jelas</text>
-      <text class="paragraph list">
-        3. Pemeriksaan luas lapangan pandang dengan tes perimetri. Pemeriksaan ini dilakukan untuk melihat luas penglihatan berupa pemetaar daerah yang bisa dilihat oleh pasien.</text>
-      <text class="paragraph list">
-        4. Pemeriksaan sudut bilik mata depan dengan tes gonioskopi. Pemeriksaan dilakukan dengan mengqunakan lensa kontak gonioskopi vang ditempelkan pada bola mata</text>
-      <text class="paragraph list">
-        5. Pemeriksaan ketebalan kornea mata dengan tes pakimetri. Pakimetri bertujuan untuk mengukur ketebalan kornea yaitu jaringan bening yang berada paling depan dari bola mata.</text>
-      <text class="paragraph">
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        (Pusdatin RI, 2019)
-      </text>
+        &nbsp;&nbsp;&nbsp;Pemeriksaan penunjang untuk menegakkan diagnosa konjungtivitis sebenarnya cukup dengan anamnese
+        dan pemeriksaan fisik, tetapi untuk meyakinkan maka diperlukan Pemeriksaan secara langsung dari
+        kerokan atau getah mata setelah bahan tersebut dibuat sediaan yang dicat dengan pengecatan gram
+        atau giemsa dapat dijumpai sel-sel radang polimorfonuklear. Pada konjungtivitis yang disebabkan
+        alergi pada pengecatan dengan giemsa akan didapatkan sel-sel eosinofil.</text>
     </scroll-view>
   </view>
 </template>

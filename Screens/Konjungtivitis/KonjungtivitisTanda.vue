@@ -7,36 +7,31 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/konjungtivitis.png')"
         />
       </view>
-      <text class="judul">E. MANIFESTASI KLINIK</text>
-
+      <text class="judul">TANDA DAN GEJALA</text>
+      <text class="paragraph">• Hyperemia (kemerahan)</text>
+      <text class="paragraph">• Cairan</text>
+      <text class="paragraph">• Edema</text>
+      <text class="paragraph">• Pengeluaran air mata</text>
+      <text class="paragraph">• Gatal</text>
       <text class="paragraph">
-        &nbsp;&nbsp;&nbsp;Didalam bola mata terdapat cairan (aquos humor) yang berfungsi untuk memberikan nutrisi pada organ dalam bola mata.
-        Cairan ini diproduksi dan dikeluarkan kembali dalam siklus yang seimbang sehingga tekanan pada bola mata tetap terjaga normal.
-        Pada mata penderita glaukoma, siklus cairan ini tidak seimbang dimana cairan diproduksi tetapi terdapat masalah dalam saluran pengeluaran.
-        Hal ini menyebabkan tekanan pada bola mata meningkat sehingga terjadi penekanan pada papil saraf optik. (Pusdatin RI, 2019)
+        <text class="bold">Komplikasi</text> dari konjungtivitis yang tidak tertangani diantaranya :
       </text>
-
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-1.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-2.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-3.png')"
-        />
-      </view>
+      <text class="paragraph">• Glaukoma</text>
+      <text class="paragraph">• Katarak</text>
+      <text class="paragraph">• Ablasi retina</text>
+      <text
+        class="paragraph"
+      >• Komplikasi pada konjungtivitis kataral teronik merupakan segala penyulit dari blefaritis seperti ekstropin, trikiasis.</text>
+      <text
+        class="paragraph"
+      >• Komplikasi pada konjungtivitis purulenta adalah seringnya berupa ulkus kornea.</text>
+      <text class="paragraph">• Komplikasi pada konjungtivitis membranasea dan psdeudomembranasea</text>
+      <text class="paragraph">• Komplikasi konjungtivitis vernal.</text>
+      <text class="paragraph">• Rasa terbakar/ rasa tercakar</text>
+      <text class="paragraph">• Ada benda asing</text>
     </scroll-view>
   </view>
 </template>
@@ -54,11 +49,14 @@
   padding-bottom: 22;
   font-weight: bold;
 }
+.bold {
+  font-weight:bold;
+}
 .paragraph {
   font-size: 16;
   padding-left: 20;
   padding-right: 20;
-  text-align:justify;
+  text-align: justify;
   padding-top: 5;
 }
 .list {

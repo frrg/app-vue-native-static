@@ -20,16 +20,16 @@
     </view>
     <view class="content">
       <button
-        :on-press="() => handleKlasifikasi()"
-        title="Klasifikasi"
-        accessibility-label="Klasifikasi"
+        :on-press="() => handleEtiologi()"
+        title="Etiologi"
+        accessibility-label="Etiologi"
       />
     </view>
     <view class="content">
       <button
-        :on-press="() => handleEtiologi()"
-        title="Etiologi"
-        accessibility-label="Etiologi"
+        :on-press="() => handleKlasifikasi()"
+        title="Klasifikasi"
+        accessibility-label="Klasifikasi"
       />
     </view>
     <view class="content">
@@ -42,8 +42,8 @@
     <view class="content">
       <button
         :on-press="() => handlePemeriksaan()"
-        title="Pemeriksaan Diagnostik"
-        accessibility-label="Pemeriksaan Diagnostik"
+        title="Pemeriksaan"
+        accessibility-label="Pemeriksaan"
       />
     </view>
     <view class="content">
@@ -56,8 +56,8 @@
     <view class="content">
       <button
         :on-press="() => handleDiagnosa()"
-        title="DIAGNOSA KEPERAWATAN DAN INTERVENSI"
-        accessibility-label="DIAGNOSA KEPERAWATAN DAN INTERVENSI"
+        title="DIAGNOSA DAN INTERVENSI KEPERAWATAN"
+        accessibility-label="DIAGNOSA DAN INTERVENSI KEPERAWATAN"
       />
     </view>
     <view class="content">

@@ -7,19 +7,15 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/konjungtivitis.png')"
         />
       </view>
-      <text class="judul">I. SUMBER</text>
+      <text class="judul">DAFTAR PUSTAKA</text>
 
-      <text class="paragraph list">1. Sidarta Ilyas, Ilmu Penyakit Mata, FKUI, 2000.</text>
-      <text class="paragraph list">2. Long C Barbara. Medical surgical Nursing. 1996</text>
-      <text
-        class="paragraph list"
-      >3. Doungoes, marilyn E, Rencana Asuhan Keperawatan : Pedoman Untuk Perencanaan Dan pendokumentasian perawatan pasien. Ed 3, EGC, Jakarta, 1999</text>
-      <text
-        class="paragraph list"
-      >4. Pusat Data dan Informasi Kementrian Kesehatan RI Mengenai Glaukoma, 2019</text>
+      <text class="paragraph list">-	Buzanne C. Smeltzer & Brenda G. Bare. 2002. <text class="bold">Keperawatan medikal bedah volume 3</text>, Jakarta: Penerbit Buku Kedokteran EGC
+</text>
+      <text class="paragraph list">-	Bachrudin,M.dkk.2016. Keperawatan Medikal Bedah I. Jakarta: Pusdik SDM Kesehatan
+</text>
     </scroll-view>
   </view>
 </template>
@@ -32,6 +28,9 @@
   padding-left: 20;
   padding-bottom: 22;
   font-weight: bold;
+}
+.bold {
+  font-weight:bold;
 }
 .paragraph {
   font-size: 16;
