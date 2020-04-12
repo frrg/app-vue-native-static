@@ -10,7 +10,6 @@ import {
 
 import MainScreen from './Main'
 import AboutScreen from './About'
-import ButaWarnaScreen from './Screens/ButaWarna/ButaWarna'
 import KonjungtivitisScreen from './Screens/Konjungtivitis/Konjungtivitis'
 import KatarakScreen from './Screens/Katarak/Katarak'
 
@@ -38,6 +37,16 @@ import TraumaPengobatan from './Screens/Trauma/TraumaPengobatan'
 import TraumaDiagnosa from './Screens/Trauma/TraumaDiagnosa'
 import TraumaDaftar from './Screens/Trauma/TraumaDaftar'
 
+
+import ButaWarnaScreen from './Screens/ButaWarna/ButaWarna'
+import ButaWarnaDefinisi from './Screens/ButaWarna/ButaWarnaDefinisi'
+import ButaWarnaEtiologi from './Screens/ButaWarna/ButaWarnaEtiologi'
+import ButaWarnaKlasifikasi from './Screens/ButaWarna/ButaWarnaKlasifikasi'
+import ButaWarnaManifestasi from './Screens/ButaWarna/ButaWarnaManifestasi'
+import ButaWarnaPemeriksaan from './Screens/ButaWarna/ButaWarnaPemeriksaan'
+import ButaWarnaPengobatan from './Screens/ButaWarna/ButaWarnaPengobatan'
+import ButaWarnaDiagnosa from './Screens/ButaWarna/ButaWarnaDiagnosa'
+
 const StackNavigator = createStackNavigator(
   {
     Main: MainScreen,
@@ -63,11 +72,20 @@ const StackNavigator = createStackNavigator(
     TraumaKlasifikasi : TraumaKlasifikasi,
     TraumaTanda : TraumaTanda,
     TraumaPathways : TraumaPathways,
-    TraumaDiagnostik : TraumaDiagnostik,
     TraumaPengobatan : TraumaPengobatan,
     TraumaDiagnostik : TraumaDiagnostik,
     TraumaDiagnosa : TraumaDiagnosa,
     TraumaDaftar : TraumaDaftar,
+
+    
+    ButaWarna: ButaWarnaScreen,
+    ButaWarnaDefinisi : ButaWarnaDefinisi,
+    ButaWarnaEtiologi : ButaWarnaEtiologi,
+    ButaWarnaKlasifikasi : ButaWarnaKlasifikasi,
+    ButaWarnaManifestasi : ButaWarnaManifestasi,
+    ButaWarnaPemeriksaan : ButaWarnaPemeriksaan,
+    ButaWarnaPengobatan : ButaWarnaPengobatan,
+    ButaWarnaDiagnosa : ButaWarnaDiagnosa,
   },
   {
     initialRouteName: 'Main',
