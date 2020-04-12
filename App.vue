@@ -17,18 +17,35 @@ import KatarakScreen from './Screens/Katarak/Katarak'
 
 
 import GlaukomaScreen from './Screens/Glaukoma/Glaukoma'
-import GlaukomaDeskripsi from './Screens/Glaukoma/GlaukomaDeskripsi'
+import GlaukomaDefinisi from './Screens/Glaukoma/GlaukomaDefinisi'
+import GlaukomaKlasifikasi from './Screens/Glaukoma/GlaukomaKlasifikasi'
+import GlaukomaEtiologi from './Screens/Glaukoma/GlaukomaEtiologi'
+import GlaukomaPathways from './Screens/Glaukoma/GlaukomaPathways'
+import GlaukomaManifestasi from './Screens/Glaukoma/GlaukomaManifestasi'
+import GlaukomaDiagnostik from './Screens/Glaukoma/GlaukomaDiagnostik'
+import GlaukomaDiagnosa from './Screens/Glaukoma/GlaukomaDiagnosa'
+import GlaukomaPengobatan from './Screens/Glaukoma/GlaukomaPengobatan'
+import GlaukomaSumber from './Screens/Glaukoma/GlaukomaSumber'
 
 const StackNavigator = createStackNavigator(
   {
     Main: MainScreen,
     About: AboutScreen,
-    Glaukoma: GlaukomaScreen,
     Trauma: TraumaScreen,
     ButaWarna: ButaWarnaScreen,
     Konjungtivitis: KonjungtivitisScreen,
     Katarak: KatarakScreen,
-    GlaukomaDeskripsi : GlaukomaDeskripsi,
+
+    Glaukoma: GlaukomaScreen,
+    GlaukomaDefinisi : GlaukomaDefinisi,
+    GlaukomaKlasifikasi : GlaukomaKlasifikasi,
+    GlaukomaEtiologi : GlaukomaEtiologi,
+    GlaukomaPathways : GlaukomaPathways,
+    GlaukomaManifestasi : GlaukomaManifestasi,
+    GlaukomaDiagnostik : GlaukomaDiagnostik,
+    GlaukomaDiagnosa : GlaukomaDiagnosa,
+    GlaukomaPengobatan : GlaukomaPengobatan,
+    GlaukomaSumber : GlaukomaSumber,
   },
   {
     initialRouteName: 'Main',

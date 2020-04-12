@@ -7,12 +7,68 @@
         :source="require('./../../assets/glaukoma.png')"
       />
     </view>
-    <view class="container">
-      <button class="btn"
-        :on-press="() => handleDeskripsi()"
-        title="Deskripsi"
-        color="#e0e0e0"
-        accessibility-label="Deskripsi"
+
+    <view class="content">
+      <button
+        :on-press="() => handleDefinisi()"
+        title="Definisi"
+        accessibility-label="Definisi"
+      />
+    </view>
+    <view class="content">
+      <button
+        :on-press="() => handleKlasifikasi()"
+        title="Klasifikasi"
+        accessibility-label="Klasifikasi"
+      />
+    </view>
+    <view class="content">
+      <button
+        :on-press="() => handleEtiologi()"
+        title="Etiologi"
+        accessibility-label="Etiologi"
+      />
+    </view>
+    <view class="content">
+      <button
+        :on-press="() => handlePathways()"
+        title="Path Ways"
+        accessibility-label="Path Ways"
+      />
+    </view>
+    <view class="content">
+      <button
+        :on-press="() => handleManifestasi()"
+        title="Manifestasi Klinik"
+        accessibility-label="Manifestasi Klinik"
+      />
+    </view>
+    <view class="content">
+      <button
+        :on-press="() => handleDiagnostik()"
+        title="Pemeriksaan Diagnostik"
+        accessibility-label="Pemeriksaan Diagnostik"
+      />
+    </view>
+    <view class="content">
+      <button
+        :on-press="() => handleDiagnosa()"
+        title="DIAGNOSA KEPERAWATAN DAN INTERVENSI"
+        accessibility-label="DIAGNOSA KEPERAWATAN DAN INTERVENSI"
+      />
+    </view>
+    <view class="content">
+      <button
+        :on-press="() => handlePengobatan()"
+        title="PENGOBATAN"
+        accessibility-label="PENGOBATAN"
+      />
+    </view>
+    <view class="content">
+      <button
+        :on-press="() => handleSumber()"
+        title="SUMBER"
+        accessibility-label="SUMBER"
       />
     </view>
   </view>
@@ -26,20 +82,46 @@ export default {
     }
   },
   methods: {
-    handleDeskripsi() {
-      this.navigation.navigate("GlaukomaDeskripsi");
+    handleDefinisi() {
+      this.navigation.navigate("GlaukomaDefinisi");
+    },
+    handleDiagnostik() {
+      this.navigation.navigate("GlaukomaDiagnostik");
+    },
+    handleEtiologi() {
+      this.navigation.navigate("GlaukomaEtiologi");
+    },
+    handleKlasifikasi() {
+      this.navigation.navigate("GlaukomaKlasifikasi");
+    },
+    handleManifestasi() {
+      this.navigation.navigate("GlaukomaManifestasi");
+    },
+    handlePathways() {
+      this.navigation.navigate("GlaukomaPathways");
+    },
+    handlePengobatan() {
+      this.navigation.navigate("GlaukomaPengobatan");
+    },
+    handleDiagnosa() {
+      this.navigation.navigate("GlaukomaDiagnosa");
+    },
+    handleSumber() {
+      this.navigation.navigate("GlaukomaSumber");
     }
   }
 };
 </script>
 
 <style>
-.btn {
-  color: black;
-}
 .container {
   background-color: white;
-  flex: 1;
+}
+.content {
+  padding:10;
+}
+.container-button {
+  background-color: white;
 }
 .container-header {
   align-items: center;

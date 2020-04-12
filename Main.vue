@@ -9,13 +9,13 @@
       <text class="judul">GANGGUAN PADA SISTEM PENGLIHATAN</text>
     </view>
     <view class="container">
-      <touchable-opacity class :on-press="() => handleGlaukoma()">
+      <touchable-opacity :on-press="() => handleGlaukoma()">
         <view class="content">
           <image class="img" :style="{ width:150,height:150 }" :source="require('./assets/glaukoma.png')" />
           <text class="name">GLAUKOMA</text>
         </view>
       </touchable-opacity>
-      <touchable-opacity class="" :on-press="() => handleTrauma()">
+      <touchable-opacity :on-press="() => handleTrauma()">
       <view class="content">
         <image class="img" :style="{ width:150,height:150 }" :source="require('./assets/trauma.png')" />
         <text class="name">TRAUMA PADA MATA</text>
@@ -23,13 +23,13 @@
       </touchable-opacity>
     </view>
     <view class="container">
-      <touchable-opacity class :on-press="() => handleButaWarna()">
+      <touchable-opacity  :on-press="() => handleButaWarna()">
         <view class="content">
           <image class="img" :style="{ width:150,height:150 }" :source="require('./assets/butawarna.png')" />
           <text class="name">BUTA WARNA</text>
         </view>
       </touchable-opacity>
-      <touchable-opacity class :on-press="() => handleKonjungtivitis()">
+      <touchable-opacity :on-press="() => handleKonjungtivitis()">
         <view class="content">
           <image class="img" :style="{ width:150,height:150 }" :source="require('./assets/konjungtivitis.png')" />
           <text class="name">KONJUNGTIVITIS</text>
@@ -37,7 +37,7 @@
       </touchable-opacity>
     </view>
     <view class="container">
-      <touchable-opacity class :on-press="() => handleKatarak()">
+      <touchable-opacity :on-press="() => handleKatarak()">
         <view class="content">
           <image class="img" :style="{ width:150,height:150 }" :source="require('./assets/katarak.png')" />
           <text class="name">KATARAK</text>
