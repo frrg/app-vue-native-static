@@ -12,16 +12,10 @@
     </view>
     <text class="judul">A. DEFINISI</text>
     <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;Glaukoma adalah suatu penyakit yang memberikan gambaran klinik berupa peninggian tekanan bola mata,
-      penggaungan papil saraf optik dengan defek lapang pandangan mata. (Sidarta Ilyas, 2000).
+      &nbsp;&nbsp;&nbsp;&nbsp;Trauma mata adalah tindakan sengaja maupun tidak yang menimbulkan perlukaan mata dan merupakan kasus gawat darurat mata.Perlukaan yang ditimbulkan dapat ringan sampai berat atau menimbulkan kebutaan bahkan kehilangan mata(Sidarta, 2005).
     </text>
     <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      Glaukoma adalah sekelompok kelainan mata yang ditandai dengan peningkatan tekanan intraokuler.( Long Barbara, 1996)
-    </text>
-    <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;Jadi, Glaukoma merupakan penyakit kerusakan pada saraf mata yang menyebabkan menyempitnya lapangan pandang dan hilagnya fungsi penglihatan.
-      Fakto resiko utama yang menyebabkan glaukoma adalah peningkatan pada bola mata. (Pusdatin RI, 2019)
+      &nbsp;&nbsp;&nbsp;&nbsp;Trauma mata adalah kondisi mata yang mengalami trauma (rudapaksa) baik oleh zat kimia maupun oleh benda keras dan tajam (Anas, 2010).
     </text>
     </scroll-view>
   </view>

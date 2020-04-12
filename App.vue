@@ -10,7 +10,6 @@ import {
 
 import MainScreen from './Main'
 import AboutScreen from './About'
-import TraumaScreen from './Screens/Trauma/Trauma'
 import ButaWarnaScreen from './Screens/ButaWarna/ButaWarna'
 import KonjungtivitisScreen from './Screens/Konjungtivitis/Konjungtivitis'
 import KatarakScreen from './Screens/Katarak/Katarak'
@@ -27,11 +26,22 @@ import GlaukomaDiagnosa from './Screens/Glaukoma/GlaukomaDiagnosa'
 import GlaukomaPengobatan from './Screens/Glaukoma/GlaukomaPengobatan'
 import GlaukomaSumber from './Screens/Glaukoma/GlaukomaSumber'
 
+
+import TraumaScreen from './Screens/Trauma/Trauma'
+import TraumaDefinisi from './Screens/Trauma/TraumaDefinisi'
+import TraumaEtiologi from './Screens/Trauma/TraumaEtiologi'
+import TraumaKlasifikasi from './Screens/Trauma/TraumaKlasifikasi'
+import TraumaTanda from './Screens/Trauma/TraumaTanda'
+import TraumaPathways from './Screens/Trauma/TraumaPathways'
+import TraumaDiagnostik from './Screens/Trauma/TraumaDiagnostik'
+import TraumaPengobatan from './Screens/Trauma/TraumaPengobatan'
+import TraumaDiagnosa from './Screens/Trauma/TraumaDiagnosa'
+import TraumaDaftar from './Screens/Trauma/TraumaDaftar'
+
 const StackNavigator = createStackNavigator(
   {
     Main: MainScreen,
     About: AboutScreen,
-    Trauma: TraumaScreen,
     ButaWarna: ButaWarnaScreen,
     Konjungtivitis: KonjungtivitisScreen,
     Katarak: KatarakScreen,
@@ -46,6 +56,18 @@ const StackNavigator = createStackNavigator(
     GlaukomaDiagnosa : GlaukomaDiagnosa,
     GlaukomaPengobatan : GlaukomaPengobatan,
     GlaukomaSumber : GlaukomaSumber,
+    
+    Trauma: TraumaScreen,
+    TraumaDefinisi : TraumaDefinisi,
+    TraumaEtiologi : TraumaEtiologi,
+    TraumaKlasifikasi : TraumaKlasifikasi,
+    TraumaTanda : TraumaTanda,
+    TraumaPathways : TraumaPathways,
+    TraumaDiagnostik : TraumaDiagnostik,
+    TraumaPengobatan : TraumaPengobatan,
+    TraumaDiagnostik : TraumaDiagnostik,
+    TraumaDiagnosa : TraumaDiagnosa,
+    TraumaDaftar : TraumaDaftar,
   },
   {
     initialRouteName: 'Main',
