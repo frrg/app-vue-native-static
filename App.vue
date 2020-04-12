@@ -10,7 +10,6 @@ import {
 
 import MainScreen from './Main'
 import AboutScreen from './About'
-import KatarakScreen from './Screens/Katarak/Katarak'
 
 
 import GlaukomaScreen from './Screens/Glaukoma/Glaukoma'
@@ -58,11 +57,23 @@ import KonjungtivitisPengobatan from './Screens/Konjungtivitis/KonjungtivitisPen
 import KonjungtivitisDiagnosa from './Screens/Konjungtivitis/KonjungtivitisDiagnosa'
 import KonjungtivitisDaftar from './Screens/Konjungtivitis/KonjungtivitisDaftar'
 
+
+
+import KatarakScreen from './Screens/Katarak/Katarak'
+import KatarakDefinisi from './Screens/Katarak/KatarakDefinisi'
+import KatarakEtiologi from './Screens/Katarak/KatarakEtiologi'
+import KatarakGejala from './Screens/Katarak/KatarakGejala'
+import KatarakStadium from './Screens/Katarak/KatarakStadium'
+import KatarakPemeriksaan from './Screens/Katarak/KatarakPemeriksaan'
+import KatarakPengobatan from './Screens/Katarak/KatarakPengobatan'
+import KatarakPathways from './Screens/Katarak/KatarakPathways'
+import KatarakDiagnosa from './Screens/Katarak/KatarakDiagnosa'
+import KatarakDaftar from './Screens/Katarak/KatarakDaftar'
+
 const StackNavigator = createStackNavigator(
   {
     Main: MainScreen,
     About: AboutScreen,
-    Katarak: KatarakScreen,
 
     Glaukoma: GlaukomaScreen,
     GlaukomaDefinisi : GlaukomaDefinisi,
@@ -106,6 +117,17 @@ const StackNavigator = createStackNavigator(
     KonjungtivitisDiagnosa :  KonjungtivitisDiagnosa,
     KonjungtivitisDaftar :  KonjungtivitisDaftar,
 
+
+    Katarak: KatarakScreen,
+    KatarakDefinisi : KatarakDefinisi,
+    KatarakEtiologi : KatarakEtiologi,
+    KatarakGejala : KatarakGejala,
+    KatarakStadium : KatarakStadium,
+    KatarakPemeriksaan : KatarakPemeriksaan,
+    KatarakPengobatan : KatarakPengobatan,
+    KatarakPathways : KatarakPathways,
+    KatarakDiagnosa : KatarakDiagnosa,
+    KatarakDaftar : KatarakDaftar,
   },
   {
     initialRouteName: 'Main',
