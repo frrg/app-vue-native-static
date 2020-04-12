@@ -7,21 +7,13 @@
       <image
         class="img"
         :style="{ width:150,height:150 }"
-        :source="require('./../../assets/glaukoma.png')"
+        :source="require('./../../assets/butawarna.png')"
       />
     </view>
-    <text class="judul">C. ETIOLOGI</text>
-    <view class="thumb">
-    <image
-        :style="{ width:300,height:150}"
-        :source="require('./../../assets/glaukoma/etiologi-glaukoma.png')"
-      />
-  </view>
+    <text class="judul">B. ETIOLOGI</text>
     <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;Didalam bola mata terdapat cairan (aquos humor) yang berfungsi untuk memberikan nutrisi pada organ dalam bola mata.
-      Cairan ini diproduksi dan dikeluarkan kembali dalam siklus yang seimbang sehingga tekanan pada bola mata tetap terjaga normal.
-      Pada mata penderita glaukoma, siklus cairan ini tidak seimbang dimana cairan diproduksi tetapi terdapat masalah dalam saluran pengeluaran.
-      Hal ini menyebabkan tekanan pada bola mata meningkat sehingga terjadi penekanan pada papil saraf optik. (Pusdatin RI, 2019)</text>
+      &nbsp;&nbsp;&nbsp;Buta warna merupakan kelainan genetik yang diturunkan dari orang tua kepada anaknya, kelainan ini sering juga disebut sex linked, karena kelainan ini dibawa oleh kromosom X. Beberapa penyakit yang diturunkan seperti distrofi sel kerucut dan akromatopsia juga dapat menyebabkan seseorang menjadi buta warna. Buta warna dapat juga ditemukan pada penyakit makula, saraf optik, sedang pada kelainan retina ditemukan cacat relative penglihatan warna biru dan kuning sedang kelainan saraf optik memberikan kelainan melihat warna merah dan hijau
+    </text>
     </scroll-view>
   </view>
   
@@ -43,6 +35,8 @@
 .paragraph {
   font-size: 16;
   padding-left: 20;
+  padding-right: 20;
+  text-align:justify;
   padding-top: 5;
 }
 .list {

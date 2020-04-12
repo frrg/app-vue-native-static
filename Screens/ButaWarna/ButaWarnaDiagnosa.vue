@@ -7,34 +7,13 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/butawarna.png')"
         />
       </view>
-      <text class="judul">G. DIAGNOSA KEPERAWATAN DAN INTERVENSI</text>
-      <view class="thumb">
-        <image
-          :style="{ width:400,height:220}"
-          :source="require('./../../assets/glaukoma/diagnosa-glaukoma-1.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:400,height:255}"
-          :source="require('./../../assets/glaukoma/diagnosa-glaukoma-2.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:400,height:230}"
-          :source="require('./../../assets/glaukoma/diagnosa-glaukoma-3.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:400,height:320}"
-          :source="require('./../../assets/glaukoma/diagnosa-glaukoma-4.png')"
-        />
-      </view>
+      <text class="judul">G. DIAGNOSA KEPERAWATAN</text>
+      <text class="paragraph">1. Gangguan persepsi warna</text>
+      <text class="paragraph">2. Gangguan konsep diri</text>
+      <text class="paragraph">3. Resiko terhadap cedera</text>
     </scroll-view>
   </view>
 </template>
@@ -42,9 +21,13 @@
 
 
 <style>
-.thumb {
-  align-items: center;
-  padding-top: 20;
+
+.paragraph {
+  font-size: 16;
+  padding-left: 20;
+  padding-right: 20;
+  text-align:justify;
+  padding-top: 5;
 }
 .judul {
   font-size: 20;

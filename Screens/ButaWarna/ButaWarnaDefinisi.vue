@@ -7,22 +7,13 @@
       <image
         class="img"
         :style="{ width:150,height:150 }"
-        :source="require('./../../assets/glaukoma.png')"
+        :source="require('./../../assets/butawarna.png')"
       />
     </view>
     <text class="judul">A. DEFINISI</text>
     <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;Glaukoma adalah suatu penyakit yang memberikan gambaran klinik berupa peninggian tekanan bola mata,
-      penggaungan papil saraf optik dengan defek lapang pandangan mata. (Sidarta Ilyas, 2000).
-    </text>
-    <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      Glaukoma adalah sekelompok kelainan mata yang ditandai dengan peningkatan tekanan intraokuler.( Long Barbara, 1996)
-    </text>
-    <text class="paragraph">
-      &nbsp;&nbsp;&nbsp;&nbsp;Jadi, Glaukoma merupakan penyakit kerusakan pada saraf mata yang menyebabkan menyempitnya lapangan pandang dan hilagnya fungsi penglihatan.
-      Fakto resiko utama yang menyebabkan glaukoma adalah peningkatan pada bola mata. (Pusdatin RI, 2019)
-    </text>
+      &nbsp;&nbsp;&nbsp;&nbsp;Buta warna adalah ketidakmampuan seseorang dalam membedakan warna ataupun ketidakmampuan seseorang dalam melihat warna yang disebabkan ketidakmampuan sel-sel kerucut (cone cell)  pada retina mata untuk menangkap suatu spektrum warna tertentu sehingga objek yang terlihat bukan warna yang sesungguhnya.
+      </text>
     </scroll-view>
   </view>
 </template>
@@ -39,6 +30,8 @@
 .paragraph{
   font-size: 16;
   padding-left:20;
+  padding-right:20;
+  text-align:justify;
   padding-top:5;
 }
 .container-header {

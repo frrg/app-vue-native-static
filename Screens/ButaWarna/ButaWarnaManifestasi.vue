@@ -7,36 +7,14 @@
         <image
           class="img"
           :style="{ width:150,height:150 }"
-          :source="require('./../../assets/glaukoma.png')"
+          :source="require('./../../assets/butawarna.png')"
         />
       </view>
-      <text class="judul">E. MANIFESTASI KLINIK</text>
+      <text class="judul">D. MANIFESTASI KLINIS</text>
 
-      <text class="paragraph">
-        &nbsp;&nbsp;&nbsp;Didalam bola mata terdapat cairan (aquos humor) yang berfungsi untuk memberikan nutrisi pada organ dalam bola mata.
-        Cairan ini diproduksi dan dikeluarkan kembali dalam siklus yang seimbang sehingga tekanan pada bola mata tetap terjaga normal.
-        Pada mata penderita glaukoma, siklus cairan ini tidak seimbang dimana cairan diproduksi tetapi terdapat masalah dalam saluran pengeluaran.
-        Hal ini menyebabkan tekanan pada bola mata meningkat sehingga terjadi penekanan pada papil saraf optik. (Pusdatin RI, 2019)
-      </text>
-
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-1.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-2.png')"
-        />
-      </view>
-      <view class="thumb">
-        <image
-          :style="{ width:300,height:210}"
-          :source="require('./../../assets/glaukoma/manifestasi-glaukoma-3.png')"
-        />
-      </view>
+      <text
+        class="paragraph"
+      >&nbsp;&nbsp;&nbsp;Tanda seorang mengalami buta warna tergandung pada beberapa faktor apakah kondisinya disebabkan faktor genetik, penyakit, dan tingkat buta warnanya sebagian atau total. Gejala umumnya adalah kesulitan membedakan warna merah dan hijau yang paling sering terjadi, atau kesulitan membedakan warna biru dan hijau jarang ditemukan.Gejala untuk kasus yang lebih serius berupa objek terlihat dalam bentuk bayangan abu-abu kondisi ini sangat jarang ditemukan dan penglihatan berkurang.</text>
     </scroll-view>
   </view>
 </template>
@@ -57,6 +35,8 @@
 .paragraph {
   font-size: 16;
   padding-left: 20;
+  padding-right: 20;
+  text-align: justify;
   padding-top: 5;
 }
 .list {
