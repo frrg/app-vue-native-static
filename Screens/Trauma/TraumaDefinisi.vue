@@ -30,10 +30,12 @@
   padding-bottom:22;
   font-weight: bold;
 }
-.paragraph{
+.paragraph {
   font-size: 16;
-  padding-left:20;
-  padding-top:5;
+  padding-left: 20;
+  padding-right: 20;
+  text-align:justify;
+  padding-top: 5;
 }
 .container-header {
   align-items: center;

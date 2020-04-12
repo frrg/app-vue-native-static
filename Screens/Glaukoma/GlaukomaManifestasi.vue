@@ -57,6 +57,8 @@
 .paragraph {
   font-size: 16;
   padding-left: 20;
+  padding-right: 20;
+  text-align:justify;
   padding-top: 5;
 }
 .list {
